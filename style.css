@@ -7,14 +7,17 @@
 }
 
 body {
-  background-color: rgb(97, 94, 94);
+  background-color: rgb(117, 116, 116);
+  overflow-x: hidden;
+
 }
 
-.box-main{
-    margin-left: 2%;
-    margin-right: 2%;
-    background-color: #fff;}
-
+.box-main {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
 
 .Main-container {
   width: 100%;
@@ -22,19 +25,15 @@ body {
 }
 .container1 {
   display: flex;
-  padding: 40px;
+  padding: 27px;
   justify-content: space-between;
- 
-  background-color: #fff;}
+  flex-wrap: wrap; /* Prevents overlapping */
+  background-color: #fff;
+}
 
-
-  .leftlogo {
-   
-  }
 
 .leftlogo img {
   width: 100%;
-  
 }
 .Rightcontent {
   margin-bottom: 1rem;
@@ -57,229 +56,341 @@ body {
   font-size: 30px;
 }
 
-.container2{
-    background-color: rgb(119, 19, 19);
-    text-wrap: wrap;
-    padding: 20px;
-    text-align: end;
-    
+.container2 {
+  background-color: rgb(119, 19, 19);
+  text-wrap: wrap;
+  padding: 20px;
+  text-align: end;
 }
-.container2  nav a{
-    
-    color: #fff;
-   margin-right: 4%;
-   font-weight: bold;
-   font-size: 20px;
-   
+.container2 nav a {
+  color: #fff;
+  margin-right: 4%;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav a:hover {
+  color: grey;
+}
+
+.container3 {
+  width: 100%;
+  padding: 30px;
+  display: flex;
   
 }
-nav a:hover{
-    color: grey;
-    
+
+.leftside {
+  width: 50%;
+  background-color: rgb(54, 54, 56);
 }
 
-.container3{
-    width: 100%;
-    padding: 30px;
-    display: flex;
-    
-
-}
-
-.leftside{
-    width: 50%;
-    background-color: rgb(54, 54, 56);
-    
-
-}
-
-.leftside img{
-    
+.leftside img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
-    
-    
+  box-shadow: 1px 1px 20px #444242;
 }
-.rightside{
-    width: 50%;
-    margin-left: 1rem;
-    font-size: 18px;
-    background-image: url(Images/form_bg.jpg);
-    object-fit: cover;}
-    
-
-.red{
-    width: 35%;
-    background-color: rgb(119, 19, 19);
-    font-size: 30px;
-    font-weight: bold;
-    color: #fff;
-   padding: 10px;
-    letter-spacing: 1PX;
+.rightside {
+  width: 50%;
+  margin-left: 1rem;
+  font-size: 18px;
+  background-image: url(Images/form_bg.jpg);
+  box-shadow: 1px 1px 20px #3b3a3a;
+  object-fit: cover;
 }
 
-
-.contentt{
-    text-align: right;
-    font-family: "Archivo Black", sans-serif;
-    font-size: 25px;
-    position: absolute;
-    left: 45%;
-    bottom: -55%;
-   
-   
+.red {
+  width: 35%;
+  background-color: rgb(179, 28, 28);
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  letter-spacing: 1px;
 }
 
-.position{
+.contentt {
+  text-align: right;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  left: 45%;
+  bottom: -55%;
+}
+
+.position {
   position: relative;
-
 }
 
 input[type="text"],
 input[type="email"],
-input[type="phone"], 
+input[type="phone"],
 textarea {
-
-  margin-bottom: 10px;  
-  padding: 3px;         
+  margin-bottom: 10px;
+  padding: 3px;
   width: 35%;
-  
- 
 }
 
-label{
+label {
   font-weight: bold;
 }
 
-
-textarea{
+textarea {
   width: 90%;
 }
 
-.info{
-    position: relative;
-   
-
+.info {
+  position: relative;
 }
 
-h4{
+h4 {
   margin-bottom: 5px;
   color: rgb(95, 90, 90);
   letter-spacing: 1px;
-  
 }
 
-.FORM{
+.FORM {
   padding: 20px;
 }
 
- .imageone{
-    position: absolute;
-    bottom: 15%;
-    right: 15%;
-    transform: rotate(12deg);
-    
- }
- 
- .btn1{
+.imageone {
+  position: absolute;
+  bottom: 19%;
+  right: 15%;
+  transform: rotate(12deg);
+}
+
+.btn1 {
   display: flex;
   align-items: center;
-  
- }
- h5{
+  flex-wrap: wrap; /* Prevents overlapping */
+}
+h5 {
   font-weight: bold;
-  font-size: 15px; 
+  font-size: 15px;
   color: rgb(95, 90, 90);
   margin-right: 2%;
- }
- 
- .btn1 button{
-  background-color: rgb(119, 19, 19);
+}
+
+.btn1 button {
   padding: 8px;
-  letter-spacing: 1PX;
+  letter-spacing: 1px;
   color: #fff;
   font-weight: bold;
   font-size: 15px;
- }
- .container4{
+}
+.container4 {
   width: 100%;
   display: flex;
   font-size: 18px;
- 
 
- }
- .partone{
+}
+.partone {
   padding: 40px;
-  
- }
- .partone h1{
+}
+.partone h1 {
   margin-bottom: 10px;
   color: rgb(95, 90, 90);
-  
- }
+}
 
- .FLEX{
+.FLEX {
   display: flex;
   align-items: center;
   color: rgb(95, 90, 90);
- }
- .flexcont{
+
+}
+.flexcont {
   margin-right: 5px;
-letter-spacing: 1px;}
+  letter-spacing: 1px;
+}
+
+.container5 {
+  width: 100%;
+  padding: 35px;
+  font-size: 18px;
+}
+
+.FLEX1 {
+  display: flex;
+  letter-spacing: 1px;
+  gap: 60px;
+  color: rgb(95, 90, 90);
+
   
-  .container5{
-    width: 100%;
-    padding: 35px;
-    font-size: 18px;
-    /* background-color: aqua; */
-   
+}
+
+.CONTAINER6 {
+  margin-left: 3rem;
+  padding: 15px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.FLEX2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: rgb(95, 90, 90);
+
+  
+}
+.FLEX3 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: rgb(95, 90, 90);
+  margin-bottom: 1rem;
+ 
+ 
+}
+
+.boxzero {
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.mybutton {
+  background-color: #d10000;
+  padding: 7px;
+  color: #fff;
+  display: block;
+  margin-left: 5rem;
+  text-align: end;
+}
+
+.Last-container {
+  width: 100%;
+  padding: 35px;
+  font-size: 18px;
+}
+
+.boxv {
+  width: 25%;
+  color: #fff;
+  margin-right: 4%;
+}
+.pbox {
+  position: absolute;
+  top: -1%;
+  left: -1%;
+}
+.pbox img {
+  width: 16px;
+  height: 75px;
+}
+
+.flex5 {
+  display: flex;
+ 
     
-  }
+}
 
-  .FLEX1{
-    display: flex;
-    letter-spacing: 1px;
-    gap: 60px;
-    color: rgb(95, 90, 90);
-  }
+.positionbox {
+  position: relative;
+  box-shadow: 1px 0px 40px #949292;
+  color: #fff;
+  padding: 10px;
+  background-color: #9e9393;
+  margin-bottom: 1rem;
+}
 
-  .CONTAINER6{
-    margin-left: 3REM;
-    padding: 15px;
-    font-size: 18px;
-    /* background-color: blue; */
-    width: 100%;
-    box-shadow: 1px 0px 34px #fff;
-  }
+.contantbox {
+  padding-left: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px;
+}
 
-  .FLEX2{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    color: rgb(95, 90, 90);
-  }
-  .FLEX3{
-    display: flex;
-    align-items: center;
-   gap: 40px;
-   color: rgb(95, 90, 90);
-   margin-bottom: 1rem;
-  }
+.btnn {
+  text-align: end;
+  color: #fff;
+}
 
-  .boxzero {
-   margin-bottom: 1rem;
-   letter-spacing: 1px;
-   
+.btnn BUTTON {
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.btnn button {
+  background-color: #9e9393;
+  border: none;
+}
 
+.menubox {
+  color: rgb(177, 151, 151);
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+    flex-wrap: wrap; /* Prevents overlapping */
+    justify-content: space-between;
+}
+
+.BOXW {
+  width: 52%;
+  color: rgb(156, 139, 139);
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.boxz {
+  width: 25%;
+  padding: 10px;
+  padding-left: 75px;
+  color: rgb(80, 76, 76);
+  font-size: 16px;
+}
+
+.mybutton1 {
+  background-color: #d10000;
+  padding: 7px;
+  color: #fff;
+  margin-left: 1rem;
+  display: block;
+  text-align: center;
+}
+.BORDERIMAGE {
+  display: block;
+  text-align: center;
+}
+
+.boximages img {
+  width: 70%;
+  padding: 15px;
+}
+.lastbox img {
+  margin: 1%;
+}
+
+.colorbox1{
+  width: 100%;
+  height: 12px;
+  background-color: rgb(119, 19, 19);
+
+}
+
+/* Default styles (for large screens) */
+body {
+  font-size: 18px;
+}
+
+/* Tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  body {
+      font-size: 16px;
   }
+}
 
-  button{
-    background-color: rgb(119, 19, 19);
-    padding: 5px;
-    color: #fff;
+/* Mobile devices (up to 767px) */
+@media screen and (max-width: 767px) {
+  body {
+      font-size: 14px;
   }
+}
 
-  
 
