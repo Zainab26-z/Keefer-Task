@@ -373,3 +373,119 @@ ul {
   background-color: rgb(119, 19, 19);
 
 }
+
+/* Mobile Media Query */
+@media (max-width: 600px) {
+
+ 
+  .container1 {
+    flex-direction: column; /* Stack the flex items vertically */
+    padding: 15px;
+  
+  }
+
+  .container3 {
+    flex-direction: column;
+  }
+
+  .leftside, .rightside {
+    width: 100%;
+  }
+
+  .container2 nav a {
+    font-size: 16px;
+    margin-right: 2%;
+  }
+
+  .text2 {
+    font-size: 30px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="phone"],
+  textarea {
+    width: 100%;
+  }
+
+  .red {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn1 button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .container4, .container5  {
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  .flex5{
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+    display: block;
+    
+    
+  }
+
+  .FLEX1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+/* Tablet Media Query */
+@media (max-width: 768px){
+
+ body{padding: 100px;
+    
+  }
+  .container1 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .text2 {
+    font-size: 40px;
+  }
+
+  .leftside, .rightside {
+    width: 100%;
+  }
+
+  .container2 nav a {
+    font-size: 18px;
+  }
+
+  .container3 {
+    flex-direction: column;
+  }
+
+  .btn1 button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .container4, .container5 {
+    font-size: 17px;
+  }
+
+  .FLEX1 {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .flex5{
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+  
+
+    
+  }
+}
