@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(117, 116, 116);
+  background-color: rgb(133, 132, 132);
   overflow-x: hidden;
 
 }
@@ -43,7 +43,7 @@ body {
   font-weight: bold;
   font-size: 30px;
   text-decoration: underline;
-  text-decoration-color: rgb(87, 85, 85);
+  text-decoration-color: rgb(58, 56, 56);
   text-underline-offset: 10px;
 }
 
@@ -52,7 +52,7 @@ body {
   font-size: 50px;
 }
 .text3 {
-  color: rgb(85, 82, 82);
+  color:  rgb(58, 56, 56);
   font-size: 30px;
 }
 
@@ -145,7 +145,7 @@ textarea {
 
 h4 {
   margin-bottom: 5px;
-  color: rgb(95, 90, 90);
+  color:  rgb(58, 56, 56);
   letter-spacing: 1px;
 }
 
@@ -168,7 +168,7 @@ h4 {
 h5 {
   font-weight: bold;
   font-size: 15px;
-  color: rgb(95, 90, 90);
+  color:  rgb(58, 56, 56);
   margin-right: 2%;
 }
 
@@ -190,14 +190,13 @@ h5 {
 }
 .partone h1 {
   margin-bottom: 10px;
-  color: rgb(95, 90, 90);
+  color:  rgb(58, 56, 56);
 }
 
 .FLEX {
   display: flex;
   align-items: center;
-  color: rgb(95, 90, 90);
-
+  color:  rgb(58, 56, 56);
 }
 .flexcont {
   margin-right: 5px;
@@ -214,7 +213,7 @@ h5 {
   display: flex;
   letter-spacing: 1px;
   gap: 60px;
-  color: rgb(95, 90, 90);
+  color: rgb(58, 56, 56);
 
   
 }
@@ -230,7 +229,7 @@ h5 {
   display: flex;
   align-items: center;
   gap: 15px;
-  color: rgb(95, 90, 90);
+  color:  rgb(58, 56, 56);
 
   
 }
@@ -238,7 +237,7 @@ h5 {
   display: flex;
   align-items: center;
   gap: 40px;
-  color: rgb(95, 90, 90);
+  color: rgb(58, 56, 56);
   margin-bottom: 1rem;
  
  
@@ -380,15 +379,185 @@ ul {
  
   .container1 {
     flex-direction: column; /* Stack the flex items vertically */
-    padding: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
   
   }
 
-  .container3 {
-    flex-direction: column;
+  h1, h2, h5, p{
+    font-weight: 16px;
   }
 
-  .leftside, .rightside {
+  .box8{
+    font-size: 15px;
+  }
+ 
+  .container3 {
+    flex-direction: column;
+    text-align: center;
+ 
+   
+  
+  }
+  .rightside{
+    margin-left: 0px;
+  }
+
+  .container2 nav a {
+    font-size: 16px;
+    margin-right: 2%;
+  }
+
+  .text2 {
+    font-size: 30px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="phone"],
+  textarea {
+    width: 100%;
+  }
+
+  .red {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn1 button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .container4 {
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    
+    
+  }
+
+  .container5 {
+    font-size: 16px;
+    flex-direction: column;
+    padding: 30px;
+    
+  }
+  .CONTAINER6{
+    display: block;
+    margin-left: 0px;
+    padding: 15px;
+  }
+
+  .flex5{
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+    display: block;
+    
+  }
+
+  .FLEX3{
+    display: block;
+  }
+  .FLEX2{
+ display: block;
+ margin-top: 1rem;
+  }
+
+  .FLEX1 {
+    flex-direction: column;
+    gap: 30px;
+
+  }
+
+  .FLEX{
+   display: block;
+   flex-direction: column;
+  }
+ .boxv{
+  width: 100%;
+  margin-bottom: 1rem;
+ }
+ .BOXW{
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 1rem;
+ 
+ }
+ .boxz{
+  width: 100%;
+  padding: 0px;
+  width: 100%;
+ }  
+ .boximages{
+  width: 100%;
+
+ }
+ .partone{
+  padding: 30px;
+  display: inline-block;
+ }
+ .mybutton1{
+  display:  inline-block;
+  margin-left: 0px;
+  
+ }
+ .contentt{
+  position: static;
+  font-size: 16px;
+  text-align: center;
+ }
+ .imageone { position: static;
+  transform: none;
+
+ }
+ .imgs1{
+  margin-bottom: 1rem;
+ }
+}
+
+/* Tablet Media Query */
+@media (max-width: 768px){
+
+  .container1 {
+    flex-direction: column; /* Stack the flex items vertically */
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+  
+  }
+  .leftlogo img{
+    margin-bottom: 2rem;
+  }
+
+  .mybutton {
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+  h1, h2, h5, p{
+    font-weight: 16px;
+  }
+
+  .box8{
+    font-size: 15px;
+  }
+ 
+  .container3 {
+    flex-direction: column;
+    text-align: center;
+ 
+   
+  
+  }
+  .rightside{
+    margin-left: 0px;
+    width: 100%;
+  }
+  .leftside{
     width: 100%;
   }
 
@@ -418,11 +587,25 @@ ul {
     font-size: 14px;
   }
 
-  .container4, .container5  {
-    font-size: 16px;
+  .container4 {
+    font-size: 18px;
     flex-direction: column;
     text-align: center;
+    padding: 15px;
     
+    
+  }
+
+  .container5 {
+    font-size: 16px;
+    flex-direction: column;
+    padding: 30px;
+    
+  }
+  .CONTAINER6{
+    display: block;
+    margin-left: 0px;
+    padding: 15px;
   }
 
   .flex5{
@@ -431,61 +614,64 @@ ul {
     text-align: center;
     display: block;
     
-    
+  }
+
+  .FLEX3{
+    display: block;
+  }
+  .FLEX2{
+ display: block;
+ margin-top: 2rem;
   }
 
   .FLEX1 {
     flex-direction: column;
     gap: 30px;
-  }
-}
 
-/* Tablet Media Query */
-@media (max-width: 768px){
-
- body{padding: 100px;
-    
-  }
-  .container1 {
-    flex-direction: column;
-    padding: 20px;
   }
 
-  .text2 {
-    font-size: 40px;
+  .FLEX{
+   display: block;
+   flex-direction: column;
   }
+ .boxv{
+  width: 100%;
+  margin-bottom: 1rem;
+ }
+ .BOXW{
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 1rem;
+ 
+ }
+ .boxz{
+  width: 100%;
+  padding: 0px;
+  width: 100%;
+ }  
+ .boximages{
+  width: 100%;
 
-  .leftside, .rightside {
-    width: 100%;
-  }
-
-  .container2 nav a {
-    font-size: 18px;
-  }
-
-  .container3 {
-    flex-direction: column;
-  }
-
-  .btn1 button {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  .container4, .container5 {
-    font-size: 17px;
-  }
-
-  .FLEX1 {
-    flex-direction: column;
-    gap: 40px;
-  }
-  .flex5{
-    font-size: 16px;
-    flex-direction: column;
-    text-align: center;
+ }
+ .partone{
+  padding: 30px;
+  display: inline-block;
+ }
+ .mybutton1{
+  display:  inline-block;
+  margin-left: 0px;
   
+ }
+ .contentt{
+  position: static;
+  font-size: 16px;
+  text-align: center;
+ }
+ .imageone { position: static;
+  transform: none;
 
-    
-  }
+ }
+ .imgs1{
+  margin-bottom: 1rem;
+ }
 }
